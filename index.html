@@ -482,34 +482,42 @@
     <div class="container"> <!-- här vill du placera dina children, display flex -->
         <div class="showcase-body-1"> <!-- flex 1, backgrundsfärg2 -->
             <div>
-                <h1>FLASH SALE <strong>UP TO 50€ OFF</strong></h1>
+                <h1><strong>FLASH SALE</strong></h1>
+                <h2>UP TO 50€ OFF</h2>
             </div>
         </div>
-        <div class="showcase-body-2"> <!-- flex 3, placera alla children -->
-            <div> <!-- display flex, gap -->
-                <a href="#" class="btn btn-lg btn-white">7 DAYS</a> <!-- div, göra helt fyrkantiga, border-radius 50% -->
-                <a href="#" class="btn btn-lg btn-white">23 HOURS</a>
-                <a href="#" class="btn btn-lg btn-white">46 MINUTES</a>
-                <a href="#" class="btn btn-lg btn-white">12 SECONDS</a> 
+        <div class="showcase-body-2">
+            <div id="days">
+                <h1>7</h1>
+                <h2>DAYS</h2>
             </div>
-            <a href="#" class="btn btn-lg btn-white">SHOP NOW</a>
+            <div id="hours">
+                <h1>23</h1>
+                <h2>HOURS</h2>
+            </div>
+            <div id="minutes">
+                <h1>46</h1>
+                <h2>MINUTES</h2>
+            </div>
+            <div id="seconds">
+                <h1>12</h1>
+                <h2>SECONDS</h2>
+            </div>
+            <div id="shop-now"><a href="#" class="btn btn-lg btn-white">SHOP NOW</a></div>
         </div>
     </div>
 </section>
 
-<section class="new-arrivals">
+<section class="top-sellers">
     <div class="container">
         <div class="section-title-1">
             <h1>TOP <span>SELLERS</span></h1>
             <img src="images/wave-line.svg" alt="waveline">
             <p>Check out our weekly top sellers in all category</p>
         </div>
+        
 
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-            
-            <div class="col">
-                <div class="card h-100">
+                 <div class="card h-100" id="top-seller-box-1">   
                     <ul class="card-menu">
                         <li><i class="fa-solid fa-circle instock"></i></li>
                         <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
@@ -536,9 +544,9 @@
                     <div class="card-background"></div>
                 </div>
             </div>
-
-            <div class="col">
-                <div class="card h-100">
+    
+            
+                <div class="card h-100" id="top-seller-box-2">
                     <ul class="card-menu">
                         <li><i class="fa-solid fa-circle instock"></i></li>
                         <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
@@ -566,8 +574,8 @@
                 </div>
             </div>
 
-            <div class="col">
-                <div class="card h-100">
+
+                <div class="card h-100" id="top-seller-box-3">
                     <ul class="card-menu">
                         <li><i class="fa-solid fa-circle outofstock"></i></li>
                         <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
@@ -593,7 +601,9 @@
                     </div>
                     <div class="card-background"></div>
                 </div>
-            </div>
+            </div> 
+        </section>
+            
 
             <section class="subscribe">
                 <div class="container-subscribe">
@@ -603,15 +613,13 @@
                         <div class="subscribe">
                             <form id="subscribeboxForm">
                                 <input id="query" type="text" placeholder="Enter email adress">
-                                <button type="submit"><i class=""></i></button>
+                                <button type="subscribe"><i class=""></i></button>
                             </form>
                         </div>
                     </div>
                 </div>
             </section>
-            
-            
-        
+  
     </div>
 </section>
 
