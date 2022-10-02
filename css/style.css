@@ -721,21 +721,22 @@ a {
 }
 
 .top-sellerMainbox {
-    height: 700px;
+    height: 410px;
 }
-#top-seller-box-1{
-    height: 100%;
+
+.top-sellersmallbox {
+    height: 50%;
 }
+
+
+
+
 
 .top-sellers .card {
-    position: relative;
-    height: 380px;
     overflow: hidden;
+    position: relative;
 }
 
-.top-sellers .card img {
-    height: 350px;
-}
 
 .top-sellers .card .card-body {
     position: absolute;
@@ -921,7 +922,7 @@ a {
 
 #shop-now {
     position: absolute;
-    right: 350px;
+    right: 540px;
     margin-top: 120px;
 }
 
